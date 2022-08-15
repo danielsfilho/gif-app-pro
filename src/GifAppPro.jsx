@@ -1,8 +1,17 @@
+import AddCategory from "./components/AddCategory"
 
-import React from 'react'
+AddCategory
 
 export default function GifAppPro() {
+  
+
   return (
-    <div>GifAppPro</div>
+    <>
+      <h1>Gif App Pro</h1>
+
+      <AddCategory />
+
+
+    </>
   )
 }
