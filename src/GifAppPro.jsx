@@ -5,13 +5,15 @@ export default function GifAppPro() {
   const [ categories, setCategories ] = useState([ "Batman", "Superman" ])
 
   const onAddCategory = ( newCategory ) => {
-    console.log(newCategory)
+
+    if( categories.includes(newCategory) ) return
+
     setCategories([ newCategory, ...categories ])
   }
 
   return (
     <>
-      <h1>Gif App Pro</h1>
+      <h1>GifAppPro</h1>
 
       <AddCategory
         onNewCategory={ value => onAddCategory(value) }
