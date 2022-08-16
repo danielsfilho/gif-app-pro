@@ -6,7 +6,13 @@ export default function GifAppPro() {
 
   const onAddCategory = ( newCategory ) => {
 
-    if( categories.includes(newCategory) ) return
+    const categoriesUpperCase = categories.map(category => {
+      return category.toUpperCase()
+    })
+
+    const newCategoryUpperCase = newCategory.toUpperCase()
+
+    if( categoriesUpperCase.includes(newCategoryUpperCase) ) return
 
     setCategories([ newCategory, ...categories ])
   }
