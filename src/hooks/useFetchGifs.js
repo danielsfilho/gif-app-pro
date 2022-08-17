@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react"
-import { getGifs } from "../helpers/getGifs"
+import { getGifs } from "../helpers/index"
 
 export const useFetchGifs = (category ) => {
   const [ images, setImages ] = useState([])
   const [ isLoading, setIsLoading ] = useState(true)
-
-  console.log(category)
 
   useEffect( () => {
     getGifs(category)
