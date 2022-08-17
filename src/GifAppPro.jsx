@@ -3,7 +3,7 @@ import { AddCategory } from "./components/AddCategory"
 import { GifGrid } from "./components/GifGrid"
 
 export const GifAppPro = () => {
-  const [ categories, setCategories ] = useState([ "Konosuba" ])
+  const [ categories, setCategories ] = useState([])
 
   const onAddCategory = ( newCategory ) => {
 
