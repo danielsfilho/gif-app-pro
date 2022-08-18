@@ -2,7 +2,8 @@
 
 ## Repositório do projeto
 - [Repositório](https://github.com/danielsfilho/gif-app-pro)
-- [Link do projeto no ar](https://gif-pro-dan.netlify.app/)
+- [Link do projeto via netlify](https://gif-pro-dan.netlify.app/)
+- [Link do projeto via github pages](https://danielsfilho.github.io/gif-app-pro/)
 
 ## Ressalvas
 - Construção das interfaces: `ReactJS`;
