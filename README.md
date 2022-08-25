@@ -9,6 +9,7 @@
 - Construção das interfaces: `ReactJS`;
 - Linguagem utilizada: `JavaScript`;
 - API utilizada: `Giphy developers`;
+- Framework de Testes: `Jest`;
 
 ## Características
 	- Campo de busca;
