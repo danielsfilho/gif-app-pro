@@ -7,9 +7,10 @@ export const useFetchGifs = (category ) => {
 
   useEffect( () => {
     getGifs(category)
-      .then( newImages => setImages(newImages) )
-    
-    setIsLoading(false)
+      .then( newImages => { 
+        setImages(newImages)
+        setIsLoading(false)
+      } )
   }, [])
 
   return{

@@ -42,5 +42,6 @@ describe('Testes no componente GifGrid ', () => {
 
     render( <GifGrid category={ category } /> );
     expect( screen.getAllByRole('img').length ).toBe(2);
+    
   });
 });
